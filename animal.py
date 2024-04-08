@@ -27,8 +27,8 @@ print(panda.name, panda.age, panda.is_hungry, panda.is_alive)
 hippo = Animal("hippo", 2, False)
 hippo.description()
 
-sloth = Animal("sloth", 1)
-ocelot = Animal("ocelot", 4)
+sloth = Animal("sloth", 1, True)
+ocelot = Animal("ocelot", 4, False)
 
 print(hippo.health)
 print(sloth.health)
